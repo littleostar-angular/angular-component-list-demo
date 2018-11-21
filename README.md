@@ -1,8 +1,8 @@
-#### angular-demo
- - 一些自定义组件
 
-#### 已部署
- - https://littleostar-angular.github.io/angular-component-list-demo/
+---
+
+#### published on gh-pages
+ - [angular-demo](https://littleostar-angular.github.io/angular-component-list-demo/)
 
 ####
 

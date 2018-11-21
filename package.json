@@ -1,11 +1,12 @@
 {
   "name": "angular-component-list-demo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "build-gh": "ng build --aot --prod --base-href=https://littleostar-angular.github.io/angular-component-list-demo/",
+    "deploy-gh": "npx ngh --dir=dist/angular-component-list-demo",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

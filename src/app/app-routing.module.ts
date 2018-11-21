@@ -1,5 +1,5 @@
 import {NgModule} from '@angular/core';
-import {Routes, RouterModule} from '@angular/router';
+import {RouterModule, Routes} from '@angular/router';
 import {DisplayingDataComponent} from './component_/displaying-data/displaying-data.component';
 import {CustomCompListComponent} from './component_/custom-comp-list/custom-comp-list.component';
 import {AsyncNowTimeComponent} from './component_/async-now-time/async-now-time.component';

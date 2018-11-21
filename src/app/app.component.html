@@ -1,3 +1,7 @@
+<div class="float-github">
+  <a href="{{githubUrl}}">Github</a>
+</div>
+
 <header>
   <a routerLink="">Home</a>
 </header>
@@ -5,8 +9,8 @@
 <section>
   <div>
     <ul>
-      <li>
-        <a routerLink="CustomCompList">CompList</a>
+      <li *ngFor="let sect of sectionList">
+        <a routerLink="{{sect}}">{{sect}}</a>
       </li>
     </ul>
   </div>

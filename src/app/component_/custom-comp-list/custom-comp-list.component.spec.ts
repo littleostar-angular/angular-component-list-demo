@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { CustomCompListComponent } from './custom-comp-list.component';
+import {CustomCompListComponent} from './custom-comp-list.component';
 
 describe('CustomCompListComponent', () => {
   let component: CustomCompListComponent;
@@ -8,9 +8,9 @@ describe('CustomCompListComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CustomCompListComponent ]
+      declarations: [CustomCompListComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

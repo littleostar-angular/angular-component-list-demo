@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { AsyncNowTimeComponent } from './async-now-time.component';
+import {AsyncNowTimeComponent} from './async-now-time.component';
 
 describe('AsyncNowTimeComponent', () => {
   let component: AsyncNowTimeComponent;
@@ -8,9 +8,9 @@ describe('AsyncNowTimeComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AsyncNowTimeComponent ]
+      declarations: [AsyncNowTimeComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
